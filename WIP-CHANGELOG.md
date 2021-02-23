@@ -12,3 +12,5 @@
 
 ### Added
 - Possibility to disable metrics server
+- NetworkPolicy dashboard in Grafana
+- Added a new helm chart `calico-accountant`
