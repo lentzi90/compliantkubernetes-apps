@@ -1,3 +1,6 @@
+### Added
+- Clean-up scripts that can remove compliantkubernetes-apps from a cluster
+
 ### Fixed
 - Fixed service cluster log retention using the wrong service account.
 - Fixed upgrade of user Grafana.
