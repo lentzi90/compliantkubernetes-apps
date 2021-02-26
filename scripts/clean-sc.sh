@@ -1,5 +1,13 @@
 #!/bin/bash
 
+echo "WARNING:"
+echo "This script will remove compliant kubernetes apps from your service cluster."
+echo "Do you want to continue (y/N): "
+read -r reply
+if [[ ${reply} != "y" ]]; then
+    exit 1
+fi
+
 SCRIPTS_PATH="$(dirname "$(readlink -f "$0")")"
 
 #Destroy all helm releases
